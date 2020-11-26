@@ -44,6 +44,10 @@ h2 {
   margin: 2.5% 5% 2.5% 5%;
 }
 
+.aeronautics p {
+  color: red;
+}
+
 .exhibitionsGrid {
   display: grid;
   background-color: #cecece;
@@ -60,14 +64,16 @@ h2 {
   width: 100%;
 }
 
-.cosmology {
-  text-decoration: none;
-  font-size: 34px;
-  text-align: center;
-  border: 1px #707070 solid;
-  margin: 2.5% 5% 2.5% 5%;
+.cosmology p {
   color: #1e80ce;
   font-weight: bold;
+  text-align: center;
+}
+
+.cosmology {
+  font-size: 34px;
+  border: 1px #707070 solid;
+  margin: 2.5% 5% 2.5% 5%;
 }
 
 a {
