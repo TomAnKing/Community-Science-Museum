@@ -27,7 +27,7 @@ h2 {
 }
 
 #news {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   margin-left: 5%;
 }
@@ -45,7 +45,13 @@ h2 {
 }
 
 .aeronautics p {
-  color: red;
+  color: #1e80ce;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .exhibitionsGrid {
@@ -55,7 +61,7 @@ h2 {
 }
 
 #exhibitions {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   margin-left: 5%;
 }
@@ -68,14 +74,69 @@ h2 {
   color: #1e80ce;
   font-weight: bold;
   text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .cosmology {
-  font-size: 34px;
+  font-size: 24px;
   border: 1px #707070 solid;
   margin: 2.5% 5% 2.5% 5%;
 }
 
 a {
   text-decoration: none;
+}
+
+.buttonGrid {
+  display: grid;
+}
+
+.visit {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.visit a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #1e80ce;
+  padding: 10px 50px;
+}
+
+.involved {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.involved a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #c48900;
+  padding: 10px 21px;
+}
+
+.explore {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 10%;
+}
+
+.explore a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #009e00;
+  padding: 10px 51px;
 }
