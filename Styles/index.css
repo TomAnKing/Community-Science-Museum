@@ -24,6 +24,7 @@ h2 {
 
 .newsGrid {
   display: grid;
+  padding-bottom: 20px;
 }
 
 #news {
@@ -58,6 +59,7 @@ h2 {
   display: grid;
   background-color: #cecece;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 #exhibitions {
@@ -98,7 +100,7 @@ a {
 .visit {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .visit a {
@@ -129,7 +131,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 35px;
-  margin-bottom: 10%;
+  margin-bottom: 40px;
 }
 
 .explore a {
