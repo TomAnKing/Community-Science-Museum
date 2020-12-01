@@ -100,45 +100,51 @@ a {
 .visit {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 30px;
+  width: 180px;
+  height: 50px;
+  background-color: #1e80ce;
+  text-align: center;
+  padding-top: 13px;
 }
 
 .visit a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
-  text-align: center;
-  background-color: #1e80ce;
-  padding: 10px 50px;
 }
 
 .involved {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 13px;
+  width: 180px;
+  height: 50px;
+  background-color: #c48900;
 }
 
 .involved a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
-  text-align: center;
-  background-color: #c48900;
-  padding: 10px 21px;
 }
 
 .explore {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
+  margin-top: 25px;
   margin-bottom: 40px;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  background-color: #009e00;
 }
 
 .explore a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
-  text-align: center;
-  background-color: #009e00;
-  padding: 10px 51px;
 }
