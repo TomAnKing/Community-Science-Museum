@@ -98,8 +98,7 @@ a {
 }
 
 .visit {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-top: 30px;
   width: 220px;
   height: 50px;
@@ -115,8 +114,7 @@ a {
 }
 
 .involved {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   text-align: center;
   margin-top: 25px;
   padding-top: 13px;
@@ -132,8 +130,7 @@ a {
 }
 
 .explore {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-top: 25px;
   margin-bottom: 40px;
   width: 220px;
