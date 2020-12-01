@@ -49,4 +49,5 @@ table {
   color: #ffffff;
   display: flex;
   justify-content: center;
+  border-spacing: 35px 5px;
 }
