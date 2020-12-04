@@ -31,6 +31,7 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   margin-left: 5%;
+  margin-bottom: 0%;
 }
 
 .aeronautics img {
@@ -58,7 +59,6 @@ h2 {
 .exhibitionsGrid {
   display: grid;
   background-color: #cecece;
-  width: 100%;
   padding-bottom: 20px;
 }
 
@@ -66,6 +66,8 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   margin-left: 5%;
+  background-color: #cecece;
+  margin-bottom: 0%;
 }
 
 .cosmology img {
@@ -144,4 +146,61 @@ a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 83px;
+    padding-top: 200px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  #background {
+    height: 600px;
+  }
+
+  .newsGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #news {
+    font-size: 50px;
+    padding-left: 6.5%;
+    margin-bottom: 0;
+  }
+
+  .aeronautics {
+    font-size: 30px;
+  }
+
+  .exhibitionsGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .cosmology {
+    font-size: 30px;
+  }
+
+  #exhibitions {
+    font-size: 50px;
+    padding-left: 6.5%;
+    margin-bottom: 0%;
+  }
+
+  .buttonGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .visit {
+    margin-top: 25px;
+  }
 }
