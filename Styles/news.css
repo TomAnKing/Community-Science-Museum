@@ -22,3 +22,25 @@ p {
   width: 90%;
   margin-top: 8%;
 }
+
+@media screen and (min-width: 768px) {
+  .newsImage {
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 40px;
+  }
+  p {
+    width: 35%;
+    font-size: 30px;
+    float: right;
+    margin-right: 10%;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-left: 55%;
+  }
+}

@@ -21,3 +21,26 @@ p {
   width: 90%;
   margin-top: 8%;
 }
+
+@media screen and (min-width: 768px) {
+  .newsImage {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  p {
+    font-size: 30px;
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
