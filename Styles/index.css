@@ -198,9 +198,36 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .visit {
     margin-top: 25px;
+    width: 90%;
+    height: 60%;
+    margin-bottom: 40px;
+  }
+
+  .visit a {
+    font-size: 40px;
+  }
+
+  .involved {
+    width: 90%;
+    height: 60%;
+  }
+
+  .involved a {
+    font-size: 40px;
+  }
+
+  .explore {
+    width: 90%;
+    height: 60%;
+  }
+
+  .explore a {
+    font-size: 40px;
   }
 }
