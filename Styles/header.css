@@ -51,3 +51,24 @@ table {
   justify-content: center;
   border-spacing: 35px 5px;
 }
+
+@media screen and (min-width: 768px) {
+  table {
+    font-size: 20px;
+    justify-content: left;
+    margin-left: 10%;
+  }
+
+  #hours {
+    font-size: 26px;
+  }
+
+  nav a {
+    font-size: 34px;
+  }
+
+  #Logo {
+    height: 60px;
+    margin-left: 10px;
+  }
+}
