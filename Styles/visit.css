@@ -5,8 +5,9 @@ h1 {
 }
 
 #locationImg {
-  width: 150px;
+  width: 140px;
   margin-left: 4%;
+  margin-top: 15px;
 }
 
 #locationText {
