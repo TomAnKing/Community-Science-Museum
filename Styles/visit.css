@@ -1,0 +1,15 @@
+h1 {
+  color: #1e80ce;
+  font-size: 20px;
+  margin-left: 4%;
+}
+
+#locationImg {
+  width: 200px;
+  margin-left: 4%;
+}
+
+#locationText {
+  width: 230px;
+  float: right;
+}
