@@ -5,13 +5,12 @@ h1 {
 }
 
 #locationImg {
-  width: 140px;
-  margin-left: 4%;
+  width: 48%;
   margin-top: 15px;
 }
 
 #locationText {
-  width: 200px;
+  width: 48%;
   float: right;
   font-size: 13px;
 }
