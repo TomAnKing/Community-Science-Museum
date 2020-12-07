@@ -1,12 +1,13 @@
 h1 {
   color: #1e80ce;
   font-size: 20px;
-  margin-left: 4%;
+  margin-left: 2%;
 }
 
 #locationImg {
   width: 48%;
   margin-top: 15px;
+  margin-left: 2%;
 }
 
 #locationText {
@@ -37,5 +38,40 @@ h2 {
   font-size: 13px;
   float: left;
   margin-left: 2%;
-  width: 85%;
+}
+
+h3 {
+  font-size: 16px;
+  color: #1e80ce;
+  margin-top: 280px;
+  margin-left: 2%;
+}
+
+#foodImg {
+  width: 48%;
+  margin-top: 3%;
+}
+
+#foodText {
+  width: 48%;
+  font-size: 13px;
+  float: left;
+  margin-left: 2%;
+}
+
+h4 {
+  font-size: 16px;
+  color: #1e80ce;
+  margin-left: 2%;
+}
+
+#shopImg {
+  width: 48%;
+  margin-left: 2%;
+}
+
+#shopText {
+  width: 48%;
+  float: right;
+  font-size: 13px;
 }
