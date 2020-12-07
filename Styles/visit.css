@@ -14,3 +14,28 @@ h1 {
   float: right;
   font-size: 13px;
 }
+
+h2 {
+  font-size: 16px;
+  margin-left: 2%;
+  color: #1e80ce;
+  margin-top: 68px;
+}
+
+.tableVisit {
+  color: black;
+  float: left;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#closed {
+  color: red;
+}
+
+#access {
+  font-size: 13px;
+  float: left;
+  margin-left: 2%;
+  width: 85%;
+}
