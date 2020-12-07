@@ -1,26 +1,26 @@
 h1 {
   color: #1e80ce;
   font-size: 20px;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 #locationImg {
-  width: 48%;
-  margin-top: 15px;
-  margin-left: 2%;
+  width: 95%;
+  margin: auto;
+  display: block;
 }
 
 #locationText {
-  width: 48%;
-  float: right;
-  font-size: 13px;
+  width: 90%;
+  font-size: 16px;
+  margin: auto;
+  display: block;
 }
 
 h2 {
-  font-size: 16px;
-  margin-left: 2%;
+  font-size: 18px;
+  margin-left: 3%;
   color: #1e80ce;
-  margin-top: 68px;
 }
 
 .tableVisit {
@@ -34,35 +34,30 @@ h2 {
   color: red;
 }
 
-#access {
-  font-size: 13px;
-  float: left;
-  margin-left: 2%;
-}
-
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   color: #1e80ce;
-  margin-top: 280px;
-  margin-left: 2%;
+  margin-top: 220px;
+  margin-left: 3%;
 }
 
 #foodImg {
-  width: 48%;
-  margin-top: 3%;
+  width: 95%;
+  margin: auto;
+  display: block;
 }
 
 #foodText {
-  width: 48%;
-  font-size: 13px;
-  float: left;
-  margin-left: 2%;
+  width: 90%;
+  font-size: 16px;
+  margin: auto;
+  display: block;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   color: #1e80ce;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 #shopImg {
@@ -73,5 +68,5 @@ h4 {
 #shopText {
   width: 48%;
   float: right;
-  font-size: 13px;
+  font-size: 16px;
 }
