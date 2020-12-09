@@ -70,3 +70,70 @@ h4 {
   float: right;
   font-size: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  #locationImg {
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 38px;
+  }
+
+  #locationText {
+    font-size: 30px;
+    width: 50%;
+    float: right;
+  }
+
+  h2 {
+    font-size: 46px;
+    margin-left: 10%;
+    margin-top: 600px;
+  }
+
+  .tableVisit {
+    font-size: 33px;
+    float: none;
+  }
+
+  h3 {
+    font-size: 46px;
+    margin-left: 10%;
+  }
+
+  #foodImg {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  #foodText {
+    font-size: 30px;
+    width: 50%;
+    float: right;
+  }
+
+  h4 {
+    font-size: 46px;
+    margin-left: 10%;
+  }
+
+  #shopImg {
+    width: 40%;
+    float: right;
+    margin-top: -100px;
+    margin-right: 5%;
+  }
+
+  #shopText {
+    font-size: 30px;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 0%;
+  }
