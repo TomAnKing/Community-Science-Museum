@@ -1,0 +1,53 @@
+h1 {
+  font-size: 20px;
+  color: #009e00;
+  margin-left: 3%;
+}
+
+.exploreGrid {
+  display: grid;
+}
+
+.exploreItem img {
+  width: 100%;
+}
+
+.exploreItem {
+  width: 95%;
+  margin: auto;
+}
+
+.headline {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3e4245;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .exploreGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .exploreItem {
+    width: 80%;
+    margin-top: 0%;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .headline {
+    font-size: 46px;
+  }
+}
