@@ -19,15 +19,15 @@ h1 {
 
 h2 {
   font-size: 18px;
-  margin-left: 3%;
   color: #1e80ce;
+  float: left;
 }
 
 .tableVisit {
   color: black;
-  float: left;
   font-size: 14px;
   font-weight: normal;
+  justify-content: left;
 }
 
 #closed {
@@ -37,7 +37,6 @@ h2 {
 h3 {
   font-size: 18px;
   color: #1e80ce;
-  margin-top: 220px;
   margin-left: 3%;
 }
 
@@ -79,60 +78,65 @@ h4 {
   }
 
   #locationImg {
-    width: 40%;
-    margin-left: 5%;
+    width: 35%;
+    margin-left: 10%;
     float: left;
     margin-top: 38px;
   }
 
   #locationText {
     font-size: 30px;
-    width: 50%;
+    width: 40%;
     float: right;
+    margin-right: 10%;
   }
 
   h2 {
     font-size: 46px;
-    margin-left: 10%;
-    margin-top: 600px;
+    float: left;
   }
 
   .tableVisit {
     font-size: 33px;
     float: none;
+    width: 100%;
+    margin-left: 9%;
   }
 
   h3 {
     font-size: 46px;
     margin-left: 10%;
+    margin-top: 3%;
   }
 
   #foodImg {
-    width: 40%;
-    margin-left: 5%;
+    width: 35%;
+    margin-left: 10%;
   }
 
   #foodText {
     font-size: 30px;
-    width: 50%;
+    width: 40%;
     float: right;
+    margin-right: 10%;
   }
 
   h4 {
     font-size: 46px;
     margin-left: 10%;
+    margin-bottom: 0%;
   }
 
   #shopImg {
     width: 40%;
     float: right;
-    margin-top: -100px;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-top: 0%;
   }
 
   #shopText {
     font-size: 30px;
-    width: 40%;
+    width: 35%;
     float: left;
     margin-left: 10%;
     margin-top: 0%;
