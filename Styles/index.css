@@ -108,7 +108,7 @@ a {
   display: grid;
 }
 
-.visit {
+#visit {
   margin: auto;
   margin-top: 30px;
   width: 220px;
@@ -118,13 +118,13 @@ a {
   padding-top: 13px;
 }
 
-.visit a {
+#visit a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
 }
 
-.involved {
+#involved {
   margin: auto;
   text-align: center;
   margin-top: 25px;
@@ -134,13 +134,13 @@ a {
   background-color: #cf8a1f;
 }
 
-.involved a {
+#involved a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
 }
 
-.explore {
+#explore {
   margin: auto;
   margin-top: 25px;
   margin-bottom: 40px;
@@ -151,7 +151,7 @@ a {
   background-color: #009e00;
 }
 
-.explore a {
+#explore a {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
@@ -216,32 +216,32 @@ a {
     margin-bottom: 80px;
   }
 
-  .visit {
+  #visit {
     margin-top: 25px;
     width: 90%;
     height: 60%;
     margin-bottom: 40px;
   }
 
-  .visit a {
+  #visit a {
     font-size: 40px;
   }
 
-  .involved {
+  #involved {
     width: 90%;
     height: 60%;
   }
 
-  .involved a {
+  #involved a {
     font-size: 40px;
   }
 
-  .explore {
+  #explore {
     width: 90%;
     height: 60%;
   }
 
-  .explore a {
+  #explore a {
     font-size: 40px;
   }
 }
