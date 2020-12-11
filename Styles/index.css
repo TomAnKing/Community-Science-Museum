@@ -35,11 +35,11 @@ h2 {
   color: #3e4245;
 }
 
-.aeronautics img {
+.newsContent img {
   width: 100%;
 }
 
-.aeronautics {
+.newsContent {
   text-decoration: none;
   font-size: 22px;
   text-align: center;
@@ -47,15 +47,11 @@ h2 {
   margin: 2.5% 5% 2.5% 5%;
 }
 
-.aeronautics :hover {
+.newsContent :hover {
   opacity: 0.9;
 }
 
-.cosmology :hover {
-  opacity: 0.9;
-}
-
-.aeronautics p {
+.newsContent p {
   color: #1e80ce;
   width: 80%;
   margin-left: auto;
@@ -79,11 +75,11 @@ h2 {
   padding-top: 20px;
 }
 
-.cosmology img {
+.exhibitionContent img {
   width: 100%;
 }
 
-.cosmology p {
+.exhibitionContent p {
   color: #1e80ce;
   font-weight: bold;
   text-align: center;
@@ -94,10 +90,14 @@ h2 {
   margin-bottom: 2%;
 }
 
-.cosmology {
+.exhibitionContent {
   font-size: 24px;
   border: 1px #707070 solid;
   margin: 2.5% 5% 2.5% 5%;
+}
+
+.exhibitionContent :hover {
+  opacity: 0.9;
 }
 
 a {
@@ -187,7 +187,7 @@ a {
     margin-bottom: 0;
   }
 
-  .aeronautics {
+  .newsContent {
     font-size: 30px;
   }
 
@@ -197,7 +197,7 @@ a {
     padding-right: 10%;
   }
 
-  .cosmology {
+  .exhibitionContent {
     font-size: 30px;
   }
 
