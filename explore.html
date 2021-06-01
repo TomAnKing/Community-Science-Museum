@@ -12,13 +12,32 @@
   </head>
   <body>
     <header>
-      <a href="/index.html"
-        ><img id="Logo" src="/Images/CSM.Logo.png" alt="Logo and home button"
+      <a href="index.html"
+        ><img id="Logo" src="Images/CSM.Logo.png" alt="Logo and home button"
       /></a>
-      <nav>
-        <ul>
-          <li><a href="/index.html">Home</a></li>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="exhibitions.html" class="nav-link">Exhibitions</a>
+          </li>
+          <li class="nav-item">
+            <a href="visit.html" class="nav-link">Visit Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="involved.html" class="nav-link">Get Involved</a>
+          </li>
+          <li class="nav-item">
+            <a href="explore.html" class="nav-link" id="current">Explore</a>
+          </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -122,5 +141,6 @@
         </tr>
       </table>
     </footer>
+    <script type="module" src="JS/navbar.js"></script>
   </body>
 </html>
