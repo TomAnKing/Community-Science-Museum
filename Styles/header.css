@@ -3,21 +3,33 @@ html {
   min-height: 100vh;
 }
 
+header {
+  height: 65px;
+}
+
 nav a {
   font-size: 12px;
   color: #1e80ce;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 nav li {
   text-align: right;
   margin-right: 2%;
   list-style-type: none;
+  display: inline;
+}
+
+.current {
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
 }
 
 #Logo {
-  float: left;
   height: 30px;
 }
 
@@ -61,12 +73,21 @@ table {
     font-size: 26px;
   }
 
+  header {
+    height: 50px;
+  }
+
+  nav {
+    text-align: right;
+  }
+
   nav a {
-    font-size: 34px;
+    font-size: 24px;
   }
 
   #Logo {
-    height: 60px;
+    height: 50px;
     margin-left: 10px;
+    float: left;
   }
 }
