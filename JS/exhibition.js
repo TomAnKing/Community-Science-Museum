@@ -14,7 +14,7 @@ const exhibition = exhibitions.find((ex) => {
 
 function buildHTML() {
   document.title = `${exhibition.header}`;
-  main.innerHTML = `  <div class="newsImage">
+  main.innerHTML = `<div class="newsImage">
     <img
       src="${exhibition.image}"
       alt="Medicine going through different tools and equipment to then being inserted to a brain"
